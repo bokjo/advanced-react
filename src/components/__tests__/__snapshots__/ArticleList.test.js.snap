@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList List component renders correctly... 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "borderBotomWidth": 0.71,
+        "borderBottomColor": "#eee",
+        "borderBottomStyle": "solid",
+        "marginBottom": 10,
+        "paddingBottom": 15,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    />
+    <div
+      style={
+        Object {
+          "color": "#888",
+          "fontFamily": "Monospace",
+          "fontSize": "0.66em",
+        }
+      }
+    >
+      Invalid Date
+    </div>
+    <div
+      style={
+        Object {
+          "fontFamily": "Inconsolata-dz",
+          "paddingBottom": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <a
+        href={undefined}
+        style={
+          Object {
+            "color": "#32FA9D",
+          }
+        }
+      >
+         
+      </a>
+    </div>
+    <div
+      style={
+        Object {
+          "paddingLeft": 20,
+          "paddingRight": 20,
+        }
+      }
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "borderBotomWidth": 0.71,
+        "borderBottomColor": "#eee",
+        "borderBottomStyle": "solid",
+        "marginBottom": 10,
+        "paddingBottom": 15,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    />
+    <div
+      style={
+        Object {
+          "color": "#888",
+          "fontFamily": "Monospace",
+          "fontSize": "0.66em",
+        }
+      }
+    >
+      Invalid Date
+    </div>
+    <div
+      style={
+        Object {
+          "fontFamily": "Inconsolata-dz",
+          "paddingBottom": 10,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <a
+        href={undefined}
+        style={
+          Object {
+            "color": "#32FA9D",
+          }
+        }
+      >
+         
+      </a>
+    </div>
+    <div
+      style={
+        Object {
+          "paddingLeft": 20,
+          "paddingRight": 20,
+        }
+      }
+    />
+  </div>
+</div>
+`;

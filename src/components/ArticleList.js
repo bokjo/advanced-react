@@ -11,7 +11,7 @@ const ArticleList = (props) => {
         <Article
           key={article.id}
           article={article}
-          author={props.authors[article.authorId]}
+          actions={props.articleActions}
         />
       )}
     </div>

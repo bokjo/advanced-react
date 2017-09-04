@@ -14,7 +14,7 @@ const styles = {
     fontWeight: 'bold',
   },
   date: {
-    fontSize: '0.65em',
+    fontSize: '0.66em',
     color: '#888',
     fontFamily: 'Monospace',
   } ,
@@ -36,7 +36,9 @@ const formatDate = (dateToFormat) =>
   new Date(dateToFormat).toDateString();
 
 const Article = (props) => {
-  const { article, author } = props;
+  const { article, actions } = props;
+  // const author = actions.lookupAuthor(article.authorId);
+  const author = actions.lookupAuthor(article.authorId);
 
   return (
     <div style={styles.article}>
