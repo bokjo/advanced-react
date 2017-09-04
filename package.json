@@ -2,11 +2,11 @@
   "name": "advanced-react",
   "version": "1.0.0",
   "description": "Learning React",
-  "main": "lib/server.js",
+  "main": "src/lib/server.js",
   "author": "Bojanche Stojchevski",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node lib/server.js",
+    "dev": "set NODE_PATH=./src&& nodemon --exec babel-node src/lib/server.js",
     "webpack": "webpack -wd",
     "test": "jest --watch",
     "debug": "node --debug-brk --inspect ./node_modules/.bin/jest -i"

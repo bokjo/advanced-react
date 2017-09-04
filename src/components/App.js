@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import DataApi from '../../api/DataApi';
-import { data } from '../../api/testData';
+import DataApi from '../api/state-api/lib';
+import { data } from '../api/testData';
 import ArticleList from './ArticleList';
 
 

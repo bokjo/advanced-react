@@ -14,7 +14,7 @@ const styles = {
     fontWeight: 'bold',
   },
   date: {
-    fontSize: '0.66em',
+    fontSize: '0.66uem',
     color: '#888',
     fontFamily: 'Monospace',
   } ,

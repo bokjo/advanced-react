@@ -25,7 +25,7 @@ exports[`ArticleList List component renders correctly... 1`] = `
         Object {
           "color": "#888",
           "fontFamily": "Monospace",
-          "fontSize": "0.66em",
+          "fontSize": "0.66uem",
         }
       }
     >
@@ -83,7 +83,7 @@ exports[`ArticleList List component renders correctly... 1`] = `
         Object {
           "color": "#888",
           "fontFamily": "Monospace",
-          "fontSize": "0.66em",
+          "fontSize": "0.66uem",
         }
       }
     >
