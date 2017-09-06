@@ -14,11 +14,11 @@ class StateApi {
     }, {});
   }
 
-  lookupAuthor(authorId) {
+  lookupAuthor = (authorId) => {
     return this.data.authors[authorId];
   }
 
-  getState() {
+  getState = () => {
     return this.data;
   }
 
