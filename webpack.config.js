@@ -1,6 +1,13 @@
 const path = require('path');
 
 const config = {
+  devtool: 'inline-source-map',
+  resolve: {
+    modules: [
+      path.resolve('./src'),
+      path.resolve('./node_modules'),
+    ]
+  },
   entry: ['babel-polyfill', './src/renderers/dom.js'],
   output: {
     path: path.resolve(__dirname, 'public'),

@@ -36,9 +36,9 @@ const formatDate = (dateToFormat) =>
   new Date(dateToFormat).toDateString();
 
 const Article = (props) => {
-  const { article, actions } = props;
+  const { article, store } = props;
   // const author = actions.lookupAuthor(article.authorId);
-  const author = actions.lookupAuthor(article.authorId);
+  const author = store.lookupAuthor(article.authorId);
 
   return (
     <div style={styles.article}>

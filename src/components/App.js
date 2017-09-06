@@ -1,31 +1,18 @@
 import React, { Component } from 'react';
-import DataApi from '../api/state-api/lib';
-import { data } from '../api/testData';
-import ArticleList from './ArticleList';
-
-
-const api = new DataApi(data);
+import ArticleList          from './ArticleList';
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      articles: api.getArticles(),
-      authors: api.getAuthors(),
-    };
+  state = this.props.store.getState();
 
-    // console.log(this.state);
-  }
-
-  articleActions = {
-    lookupAuthor: (authorId) => this.state.authors[authorId],
-  };
+  // articleActions = {
+  //   lookupAuthor: (authorId) => this.state.authors[authorId],
+  // };
 
   render() {
     return (
       <ArticleList
         articles={this.state.articles}
-        articleActions={this.articleActions}
+        store={this.props.store}
       />
     );
   }

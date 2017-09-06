@@ -1,14 +1,17 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Advanced React App Example</title>
+    <script type='text/javascript'>
+      window.initialData = <%- JSON.stringify(initialData) -%>
+    </script>
 </head>
 <body>
 
-    <div id="main"><%- initialContent -%></div>
+    <div id="main"><%- initialMarkup -%></div>
     <script src="/bundle.js" charset="utf-8"></script>
 
 </body>

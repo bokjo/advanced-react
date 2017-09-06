@@ -1,34 +1,27 @@
-class DataApi {
+class StateApi {
 
   constructor(rawData) {
-    this.rawData = rawData;
+    this.data = {
+      articles: this.mapToObject(rawData.articles),
+      authors: this.mapToObject(rawData.authors),
+    };
   }
 
   mapToObject(arr) {
-    return arr.reduce((acc, curr, index) => {
-      // console.log('####################');
-      // console.log(`INDEX: ${index}`)
-      // console.log('Accomulator Before: ');
-      // console.log(acc);
-      // console.log('Current: ');
-      // console.log(curr);
-      // console.log('####################');
+    return arr.reduce((acc, curr) => {
       acc[curr.id] = curr;
-      // console.log('Acc After: ');
-      // console.log(acc);
-      // console.log('####################');
       return acc;
     }, {});
   }
 
-  getArticles() {
-    return this.mapToObject(this.rawData.articles);
+  lookupAuthor(authorId) {
+    return this.data.authors[authorId];
   }
 
-  getAuthors() {
-    return this.mapToObject(this.rawData.authors);
+  getState() {
+    return this.data;
   }
 
 }
 
-export default DataApi;
+export default StateApi;
