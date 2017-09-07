@@ -1,122 +1,198 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ArticleList List component renders correctly... 1`] = `
-<div>
-  <div
-    style={
-      Object {
-        "borderBotomWidth": 0.71,
-        "borderBottomColor": "#eee",
-        "borderBottomStyle": "solid",
-        "marginBottom": 10,
-        "paddingBottom": 15,
-      }
-    }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <Article
+        article={
+            Object {
+                "body": "body",
+                "date": "date",
+                "id": "a",
+                "title": "title a",
+              }
         }
-      }
     />
-    <div
-      style={
-        Object {
-          "color": "#888",
-          "fontFamily": "Monospace",
-          "fontSize": "0.66uem",
+    <Article
+        article={
+            Object {
+                "body": "body",
+                "date": "date",
+                "id": "b",
+                "title": "title b",
+              }
         }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "fontFamily": "Inconsolata-dz",
-          "paddingBottom": 10,
-          "paddingTop": 10,
+    />
+</div>,
+  "nodes": Array [
+    <div>
+      <Article
+            article={
+                  Object {
+                        "body": "body",
+                        "date": "date",
+                        "id": "a",
+                        "title": "title a",
+                      }
+            }
+      />
+      <Article
+            article={
+                  Object {
+                        "body": "body",
+                        "date": "date",
+                        "id": "b",
+                        "title": "title b",
+                      }
+            }
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <ArticleList
+        articles={
+                Object {
+                        "a": Object {
+                          "body": "body",
+                          "date": "date",
+                          "id": "a",
+                          "title": "title a",
+                        },
+                        "b": Object {
+                          "body": "body",
+                          "date": "date",
+                          "id": "b",
+                          "title": "title b",
+                        },
+                      }
         }
-      }
-    >
-      <a
-        href={undefined}
-        style={
-          Object {
-            "color": "#32FA9D",
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "articles": Object {
+            "a": Object {
+              "body": "body",
+              "date": "date",
+              "id": "a",
+              "title": "title a",
+            },
+            "b": Object {
+              "body": "body",
+              "date": "date",
+              "id": "b",
+              "title": "title b",
+            },
+          },
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <Article
+                    article={
+                              Object {
+                                        "body": "body",
+                                        "date": "date",
+                                        "id": "a",
+                                        "title": "title a",
+                                      }
+                    }
+          />
+          <Article
+                    article={
+                              Object {
+                                        "body": "body",
+                                        "date": "date",
+                                        "id": "b",
+                                        "title": "title b",
+                                      }
+                    }
+          />
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <Article
+                    article={
+                              Object {
+                                        "body": "body",
+                                        "date": "date",
+                                        "id": "a",
+                                        "title": "title a",
+                                      }
+                    }
+          />
+          <Article
+                    article={
+                              Object {
+                                        "body": "body",
+                                        "date": "date",
+                                        "id": "b",
+                                        "title": "title b",
+                                      }
+                    }
+          />
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ArticleList
+    articles={
+        Object {
+            "a": Object {
+              "body": "body",
+              "date": "date",
+              "id": "a",
+              "title": "title a",
+            },
+            "b": Object {
+              "body": "body",
+              "date": "date",
+              "id": "b",
+              "title": "title b",
+            },
           }
-        }
-      >
-         
-      </a>
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-          "paddingRight": 20,
-        }
-      }
-    />
-  </div>
-  <div
-    style={
-      Object {
-        "borderBotomWidth": 0.71,
-        "borderBottomColor": "#eee",
-        "borderBottomStyle": "solid",
-        "marginBottom": 10,
-        "paddingBottom": 15,
-      }
     }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
-      }
-    />
-    <div
-      style={
-        Object {
-          "color": "#888",
-          "fontFamily": "Monospace",
-          "fontSize": "0.66uem",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={
-        Object {
-          "fontFamily": "Inconsolata-dz",
-          "paddingBottom": 10,
-          "paddingTop": 10,
-        }
-      }
-    >
-      <a
-        href={undefined}
-        style={
-          Object {
-            "color": "#32FA9D",
-          }
-        }
-      >
-         
-      </a>
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-          "paddingRight": 20,
-        }
-      }
-    />
-  </div>
-</div>
+/>,
+}
 `;

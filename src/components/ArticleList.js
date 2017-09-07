@@ -11,7 +11,6 @@ const ArticleList = (props) => {
         <Article
           key={article.id}
           article={article}
-          store={props.store}
         />
       )}
     </div>
@@ -19,7 +18,7 @@ const ArticleList = (props) => {
 };
 
 ArticleList.propTypes = {
-
+  articles: PropTypes.object.isRequired,
 };
 
 export default ArticleList;

@@ -35,10 +35,10 @@ const styles = {
 const formatDate = (dateToFormat) =>
   new Date(dateToFormat).toDateString();
 
-const Article = (props) => {
-  const { article, store } = props;
+const Article = (props, context) => {
+  const { article } = props;
   // const author = actions.lookupAuthor(article.authorId);
-  const author = store.lookupAuthor(article.authorId);
+  const author = context.store.lookupAuthor(article.authorId);
 
   return (
     <div style={styles.article}>
@@ -57,7 +57,15 @@ const Article = (props) => {
 };
 
 Article.propTypes = {
+  article: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    body: PropTypes.string.isRequired,
+  })
+};
 
+Article.contextTypes = {
+  store: PropTypes.object,
 };
 
 export default Article;
