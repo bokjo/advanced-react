@@ -23,7 +23,7 @@ describe('ArticleList', () => {
     console.log(wrapper.node.props.children);
 
     // expect(wrapper.node.props.children.length).toBe(2);
-    expect(wrapper.find('Article').length).toBe(2);
+    expect(wrapper.find('ArticleContainer').length).toBe(2);
     expect(wrapper).toMatchSnapshot();
   });
 
